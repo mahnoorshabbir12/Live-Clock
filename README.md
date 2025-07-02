@@ -23,17 +23,28 @@ liveclock/
 ```
 
 ⚙️ Tech Stack
+
 React
+
 Vite
+
 JavaScript
+
 Tailwind CSS
 
+
 🚀 Features
+
 Real-time clock that updates every second
-12-hour or 24-hour format (optional enhancement)
+
+12-hour or 24-hour format 
+
 Clean and centered UI
 
+
 🛠️ How It Works
+
 Clock.jsx uses the useState and useEffect hooks.
+
 setInterval updates the time every second.
 Time is formatted to display HH:MM:SS AM/PM.
