@@ -1,12 +1,39 @@
-# React + Vite
+# 🕒 Live Clock - React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet dynamic **Live Clock** built with **React**. This application displays the current time, updating every second using React hooks.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Click to View Live Clock](https://mahnoorshabbir-liveclock.vercel.app/)
 
-## Expanding the ESLint configuration
+## 📁 Folder Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```plaintext
+liveclock/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── .gitignore
+├── package.json
+├── README.md
+└── vite.config.js
+```
+
+⚙️ Tech Stack
+React
+Vite
+JavaScript
+Tailwind CSS
+
+🚀 Features
+Real-time clock that updates every second
+12-hour or 24-hour format (optional enhancement)
+Clean and centered UI
+
+🛠️ How It Works
+Clock.jsx uses the useState and useEffect hooks.
+setInterval updates the time every second.
+Time is formatted to display HH:MM:SS AM/PM.
